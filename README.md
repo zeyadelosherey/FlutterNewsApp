@@ -15,10 +15,10 @@ A new Flutter application .
  <img align="left" width="200" height="400" src="https://cdn.pbrd.co/images/HWtwsPf.png">
   </p>
  <p align="center">
- <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWtwEqH.png">
+ <img  align="left"  width="200" height="400" src="https://cdn.pbrd.co/images/HWtwEqH.png">
   </p>
  <p align="center">
- <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWtwPTb.png">
+ <img align="left"  width="200" height="400" src="https://cdn.pbrd.co/images/HWtwPTb.png">
 
  </p>
 
