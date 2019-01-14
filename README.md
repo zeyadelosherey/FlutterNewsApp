@@ -22,6 +22,18 @@ A new Flutter application .
 
  </p>
 
+
+##  PACKAGES  
+
+- share:^0.12
+- http:^0.5.3
+- liquid_pull_to_refresh:^0.1.2
+- flutter_webview_plugin:^0.3.0+2
+- flutter_mailer:^0.3.0
+
+
+
+
  
   
 
