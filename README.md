@@ -1,4 +1,5 @@
-# newsapp
+# FLUTTER News App
+
 
 A new Flutter application . 
  
