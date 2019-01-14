@@ -3,28 +3,25 @@
 
 A new Flutter application . 
 <p >
- <img align="left" width="200" height="400" src="https://cdn.pbrd.co/images/HWtrEeO.png">
+ <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWtrEeO.png">
  </p>
  <p >
- <img align="left" width="200" height="400" src="https://cdn.pbrd.co/images/HWttFp2.png">
+ <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWttFp2.png">
  </p>
  <p  >
- <img align="left" width="200" height="400" src="https://cdn.pbrd.co/images/HWtvMnb.png">
+ <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWtvMnb.png">
   </p>
  <p  >
- <img align="left" width="200" height="400" src="https://cdn.pbrd.co/images/HWtwsPf.png">
+ <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWtwsPf.png">
   </p>
  <p align="center">
- <img  align="left"  width="200" height="400" src="https://cdn.pbrd.co/images/HWtwEqH.png">
+ <img     width="200" height="400" src="https://cdn.pbrd.co/images/HWtwEqH.png">
   </p>
  <p align="center">
- <img align="left"  width="200" height="400" src="https://cdn.pbrd.co/images/HWtwPTb.png">
+ <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWtwPTb.png">
 
  </p>
- </hr>
- </hr>
- </hr>
-
+ 
 
 ##  PACKAGES  
 
