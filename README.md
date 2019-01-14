@@ -1,7 +1,8 @@
 # newsapp
 
 A new Flutter application . 
- 
+ ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 ![flutter img](https://ibb.co/2jtH67k)
 ![flutter img](https://ibb.co/yXVjStg)
 ![flutter img](https://ibb.co/vH8JD3v)
