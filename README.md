@@ -4,11 +4,13 @@
 A new Flutter application . 
  
 ![flutter img](https://cdn.pbrd.co/images/HWtrEeO.png)
-![flutter img](https://ibb.co/yXVjStg)
-![flutter img](https://ibb.co/vH8JD3v)
-![flutter img](https://ibb.co/JsBNCBz)
-![flutter img](https://ibb.co/v17FrS9)
-![flutter img](https://ibb.co/Yy8XGxk)
+<img src="https://ibb.co/yXVjStg" width="48">
+<img src="https://ibb.co/vH8JD3v" width="48">
+<img src="https://ibb.co/JsBNCBz" width="48">
+<img src="https://ibb.co/v17FrS9" width="48">
+<img src="https://ibb.co/Yy8XGxk" width="48">
+
+  
 
 
  
