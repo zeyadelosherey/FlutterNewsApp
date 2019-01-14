@@ -21,6 +21,9 @@ A new Flutter application .
  <img align="left"  width="200" height="400" src="https://cdn.pbrd.co/images/HWtwPTb.png">
 
  </p>
+ </hr>
+ </hr>
+ </hr>
 
 
 ##  PACKAGES  
