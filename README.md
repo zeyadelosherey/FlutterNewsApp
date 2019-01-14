@@ -1,7 +1,18 @@
 # newsapp
 
-A new Flutter application.
+A new Flutter application . 
+![alt text](https://ibb.co/2jtH67k)
+![alt text]( https://ibb.co/yXVjStg)
+![alt text](https://ibb.co/vH8JD3v)
+![alt text](https://ibb.co/JsBNCBz)
+![alt text](https://ibb.co/v17FrS9)
+![alt text](https://ibb.co/Yy8XGxk)
+ 
+ 
 
+
+
+ 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
