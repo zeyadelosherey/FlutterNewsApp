@@ -3,14 +3,14 @@
 
 A new Flutter application . 
 
- <img align="left" width="100" height="100" src="https://cdn.pbrd.co/images/HWtrEeO.png">
+ <img align="left" width="200" height="300" src="https://cdn.pbrd.co/images/HWtrEeO.png">
+ <img align="left" width="200" height="250" src="https://cdn.pbrd.co/images/HWttFp2.png">
+ <img align="left" width="200" height="250" src="https://cdn.pbrd.co/images/HWtvMnb.png">
+ <img align="left" width="200" height="250" src="https://cdn.pbrd.co/images/HWtwsPf.png">
+ <img align="left" width="200" height="250" src="https://cdn.pbrd.co/images/HWtwEqH.png">
+ <img align="left" width="200" height="250" src="https://cdn.pbrd.co/images/HWtwPTb.png">
 
-![flutter img](https://cdn.pbrd.co/images/HWtrEeO.png)
-![flutter img](https://cdn.pbrd.co/images/HWttFp2.png)
-![flutter img](https://cdn.pbrd.co/images/HWtvMnb.png)
-![flutter img](https://cdn.pbrd.co/images/HWtwsPf.png)
-![flutter img](https://cdn.pbrd.co/images/HWtwEqH.png)
-![flutter img](https://cdn.pbrd.co/images/HWtwPTb.png)
+
 
  
   
