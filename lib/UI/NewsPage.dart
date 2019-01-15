@@ -8,7 +8,7 @@ import 'package:newsapp/UI/DetailsPage.dart';
 
 Future<NewsModel> fetchNews(String  cat) async {
   final response =
-  await http.get('https://newsapi.org/v2/top-headlines?country=ae&category=${cat}&apiKey=YOUR-API-KEY');
+  await http.get('https://newsapi.org/v2/top-headlines?country=ae&category=${cat}&apiKey=92f2436407be44c6a15bbe1693fd95ee');
 
   if (response.statusCode == 200) {
     // If the call to the server was successful, parse the JSON
