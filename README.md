@@ -1,7 +1,51 @@
-# newsapp
+# FLUTTER News App
 
-A new Flutter application.
 
+A new Flutter application . 
+
+
+<p >
+ <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWtrEeO.png">
+ </p>
+ <p >
+ <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWttFp2.png">
+ </p>
+ <p  >
+ <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWtvMnb.png">
+  </p>
+ <p  >
+ <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWtwsPf.png">
+  </p>
+ <p align="center">
+ <img     width="200" height="400" src="https://cdn.pbrd.co/images/HWtwEqH.png">
+  </p>
+ <p align="center">
+ <img   width="200" height="400" src="https://cdn.pbrd.co/images/HWtwPTb.png">
+
+ </p>
+ 
+
+##  PACKAGES  
+
+- share:^0.12
+- http:^0.5.3
+- liquid_pull_to_refresh:^0.1.2
+- flutter_webview_plugin:^0.3.0+2
+- flutter_mailer:^0.3.0
+
+
+
+
+ 
+  
+
+
+ 
+ 
+
+
+
+ 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
