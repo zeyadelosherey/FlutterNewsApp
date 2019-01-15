@@ -8,7 +8,7 @@ import 'package:newsapp/UI/DetailsPage.dart';
 
 Future<NewsModel> fetchNews(String  cat) async {
   final response =
-  await http.get('https://newsapi.org/v2/top-headlines?country=ae&category=${cat}&apiKey=92f2436407be44c6a15bbe1693fd95ee');
+  await http.get('https://newsapi.org/v2/top-headlines?category=${cat}&country=us&apiKey=92f2436407be44c6a15bbe1693fd95ee');
 
   if (response.statusCode == 200) {
     // If the call to the server was successful, parse the JSON
@@ -97,7 +97,7 @@ class NewsPageState extends State<NewsPage>{
         onTap: ()=>
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => DetailsPage(urlimage : _urlImage(urlimage) , url : url , title: title, description:_descriptionsub(description) , publishtime:publishtime , journalName:journalName )),
+              MaterialPageRoute(builder: (context) => DetailsPage(urlimage : _urlImage(urlimage) , url : url , title: title, description:_descriptionsub(description,1) , publishtime:publishtime , journalName:journalName )),
             )
         ,
         child:
@@ -113,7 +113,7 @@ class NewsPageState extends State<NewsPage>{
                   Column(
                     children: <Widget>[
                       Stack(
-                        textDirection: TextDirection.rtl,
+                        textDirection: TextDirection.ltr,
                         fit: StackFit.loose,
                         children: <Widget>[
                           FadeInImage( placeholder: new AssetImage(_there_is_image_or_not(_urlImage(urlimage)) ), image: NetworkImage(_urlImage(urlimage )) , height: 150, width: double.infinity, fit: BoxFit.cover, )
@@ -145,14 +145,14 @@ class NewsPageState extends State<NewsPage>{
 
                      Padding(padding: EdgeInsets.only(left: 8 , right: 8 ,bottom: 10 ,top: 10),
                         child:
-                        Text(title , style: TextStyle(color: Colors.black , fontWeight: FontWeight.bold , fontSize: 15 , ), textAlign: TextAlign.right,),
+                        Text(title , style: TextStyle(color: Colors.black , fontWeight: FontWeight.bold , fontSize: 15 , ), textAlign: TextAlign.left,),
 
                       ),
                       Padding(padding: EdgeInsets.only(left: 8 , right: 8 , bottom: 10 ),
                         child:
                         Text(
-                        _descriptionsub(description)
-                        , style: TextStyle(color: Color.fromRGBO(0, 0, 0, 0.8)  , fontSize: 12 ,textBaseline: TextBaseline.alphabetic ,  ), textDirection: TextDirection.rtl, textAlign: TextAlign.right, ),
+                        _descriptionsub(description , 0)
+                        , style: TextStyle(color: Color.fromRGBO(0, 0, 0, 0.8)  , fontSize: 12 ,textBaseline: TextBaseline.alphabetic ,  ), textDirection: TextDirection.ltr, textAlign: TextAlign.left, ),
 
                       ),
 
@@ -167,17 +167,21 @@ class NewsPageState extends State<NewsPage>{
 
  }
 
- String _descriptionsub(String description){
+ String _descriptionsub(String description , int f){
 
      if(description == null){
      return "" ;
    }else{
-       if (description.length>100){
-         return   description.substring(0,99)+"....";}
+       if(f==0) {
+         if (description.length > 100) {
+           return description.substring(0, 99) + "....";
+         }
          else {
+           return description;
+         }
+       }else{
          return description;
        }
-
    }
     
     

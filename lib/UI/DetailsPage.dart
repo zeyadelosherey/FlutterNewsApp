@@ -91,14 +91,14 @@ class DetailsPage extends StatelessWidget{
                     child:
                         Column(
                           children: <Widget>[
-                            Text(description , style:  TextStyle(fontSize: 17 , color: Colors.black, ),textDirection: TextDirection.rtl, textAlign: TextAlign.right,)
+                            Text(description , style:  TextStyle(fontSize: 17 , color: Colors.black, ),textDirection: TextDirection.ltr, textAlign: TextAlign.left,)
                             ,
                             SizedBox(height: 10,),
 
-                            Text("أقرأ المزيد : " , style:  TextStyle(fontSize: 17 , color: Colors.black, ),textDirection: TextDirection.rtl, textAlign: TextAlign.right,)
+                            Text("READ MORE :" , style:  TextStyle(fontSize: 17 , color: Colors.black, ),textDirection: TextDirection.ltr, textAlign: TextAlign.left,)
                           ,
                             InkWell(
-                              child: Text("${url}" , style:  TextStyle(fontSize: 15 , color: Colors.blue, ),textDirection: TextDirection.rtl, textAlign: TextAlign.center,)
+                              child: Text("${url}" , style:  TextStyle(fontSize: 15 , color: Colors.blue, ),textDirection: TextDirection.ltr, textAlign: TextAlign.center,)
                               , onTap: (){ Navigator.push(
                               context,
                               MaterialPageRoute(builder: (context) => WebviewPage(url : url )),

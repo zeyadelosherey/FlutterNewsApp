@@ -14,7 +14,7 @@ class HomePage extends StatefulWidget{
 class HomePageState extends State<HomePage>{
   var drawersize = 17.0;
  static var imageList =["assets/images/business.jpeg" , "assets/images/sports.jpeg", "assets/images/entertainment.jpeg" , "assets/images/scince.jpeg" , "assets/images/tech.jpeg"];
-  static var title =["الاعمال" , "رياضة", "فن و ترفية" , "العلوم" , "التكنولوجيا"];
+  static var title =["business" , "sports", "entertainment" , "science" , "technology"];
   static var catname =["business" , "sports", "entertainment" , "science" , "technology"];
 
   final listCat = List<Category>.generate(imageList.length, (i) => Category(imageList[i], title[i], catname[i]));
